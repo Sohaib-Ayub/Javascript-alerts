@@ -1,9 +1,13 @@
-alert("Error ! Please Enter a Valid Password.");
-      alert("Wellcome to Js Land\nHappy Coding.");
-
-      alert("Wellcome to Js Land\nHappy Coding.");
-      alert(
-        "Happy Coding.\nPrevent this page from creating additional dialogues"
-      );
-      alert('I can write this through JS on web console');
-      console.log('I can write this through JS on web console')
+let heading = document.getElementById("h1");
+heading.innerText = "Rules for defining a variable name in js";
+document.write(
+  "A variable name can only contain letter,digits,underscore and dollarsign in js\nFor Example $my_firstvariable1."
+);
+document.write("<br>");
+document.write(
+  "variable must begin with a dollar sign , underscore or letter."
+);
+document.write("<br>");
+document.write("variable names are case sensitive");
+document.write("<br>");
+document.write("variable names should not be a js keyword.    ");
